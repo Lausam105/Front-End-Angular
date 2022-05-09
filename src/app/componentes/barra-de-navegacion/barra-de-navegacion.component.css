@@ -1,0 +1,49 @@
+#contenedor1 {
+    width: 20%;
+    background-color: rgba(16, 17, 17, 0.884);
+    position: relative;
+    display: inline;
+    padding: 15px;
+    float: left;
+}
+
+li:hover {
+    background-color: bisque;
+    cursor:pointer;
+}
+
+ul {
+    width: 20%;
+}
+
+li {
+    border: solid 3px rgba(0, 0, 0, 0.411);
+    padding: 30px;
+    width: 500%;
+}
+
+
+
+#titulo1 {
+    height: 200px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:#ccc;
+    text-align:center;
+    
+  
+}
+
+
+
+#titulos {
+    
+    height: 70px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.048);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 20px;
+}

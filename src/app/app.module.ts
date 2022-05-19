@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module.ts/app-routing.module.ts.module';
@@ -21,6 +22,7 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
   imports: [
     AppRoutingModule,
     BrowserModule,
+    FormsModule,
     
     
   ],

@@ -1,11 +1,13 @@
 #contenedor1 {
     width: 20%;
-    background-color: rgba(16, 17, 17, 0.884);
-    position: relative;
+    background-color: rgba(10, 10, 10, 0.819);
+    position: fixed;
     display: inline;
     padding: 15px;
     float: left;
 }
+
+
 
 li:hover {
     background-color: bisque;
@@ -17,7 +19,7 @@ ul {
 }
 
 li {
-    border: solid 3px rgba(0, 0, 0, 0.411);
+    border: solid 3px rgba(0, 0, 0, 0.472);
     padding: 30px;
     width: 500%;
 }
@@ -47,3 +49,8 @@ li {
     text-align: center;
     font-size: 20px;
 }
+
+#titulos:hover{
+    background-color:aliceblue;
+}
+

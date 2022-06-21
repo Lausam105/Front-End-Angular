@@ -23,6 +23,19 @@
     color:aqua;
 }
 
+table {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+th {
+    padding: 30px;
+}
+
+.fila1 {
+    font-size: 25px;
+}
 
 
 

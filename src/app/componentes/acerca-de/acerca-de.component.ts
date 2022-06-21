@@ -1,4 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
   selector: 'app-acerca-de',
@@ -6,15 +7,24 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./acerca-de.component.css']
 })
 export class AcercaDeComponent implements OnInit {
+   
+   miPorfolio:any;
+   constructor(private datosPortfolio:PortfolioService) { }
 
-  nombre: string =''
-  
-  
-  
-  constructor() { }
-  
+
+   equipos=['Boca Juniors', 'River Plate', 'San Lorenzo'];
+   titulo="";
+   ingreso="";
+   
+   
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data =>{
+      console.log(data);
+      this.miPorfolio=data;
+    });
+   
   }
+  
 
 }

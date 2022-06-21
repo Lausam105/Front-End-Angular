@@ -1,10 +1,25 @@
 #contenedor3 {
     width: 80%;
-    background-color: rgb(10, 9, 10);
+    background:url(../../../assets/Estrellas3.jpg);
+    background-size:80% ;
     position: relative;
     display: inline;
     padding: 10px;
     float: right;
+
+    animation: fondo2 40s linear infinite;
+}
+
+@keyframes fondo2{
+    0%{
+        background-position: top;
+    }
+    50%{
+        background-position: 50%;
+    }
+    100%{
+        background-position: bottom;
+    }
 }
 
 .educacion {

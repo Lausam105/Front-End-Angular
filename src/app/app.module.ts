@@ -8,6 +8,11 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { BarraDeNavegacionComponent } from './componentes/barra-de-navegacion/barra-de-navegacion.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
+import { MisHabilidadesComponent } from './componentes/mis-habilidades/mis-habilidades.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -16,6 +21,9 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
     BarraDeNavegacionComponent,
     EducacionComponent,
     ExperienciaComponent,
+    MisHabilidadesComponent,
+    ProyectosComponent,
+    ContactoComponent,
     
   
   ],
@@ -23,7 +31,7 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
     AppRoutingModule,
     BrowserModule,
     FormsModule,
-    
+    HttpClientModule
     
   ],
   providers: [],

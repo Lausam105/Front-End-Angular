@@ -1,0 +1,26 @@
+#contenedor5 {
+    width: 80%;
+    background-color: rgb(10, 9, 10);
+    position: relative;
+    display: block;
+    float: right;
+    
+    
+}
+
+.HYS {
+    text-align:justify;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-left:30px;
+    position: relative;
+    color:aqua;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+
+
+

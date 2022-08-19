@@ -3,7 +3,8 @@
     background-color: rgba(10, 10, 10, 0.819);
     position: fixed;
     display: inline;
-    padding: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
     float: left;
 }
 

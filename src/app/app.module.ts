@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module.ts/app-routing.module.ts.module';
@@ -12,7 +12,12 @@ import { MisHabilidadesComponent } from './componentes/mis-habilidades/mis-habil
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
+import { NotFoundComponentComponent } from './componentes/not-found-component/not-found-component.component';
+import { SoftYSkComponent } from './componentes/soft-ysk/soft-ysk.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { interceptorProvider } from './servicios/interceptor.service';
 
 @NgModule({
   declarations: [
@@ -24,6 +29,11 @@ import { HttpClientModule } from '@angular/common/http';
     MisHabilidadesComponent,
     ProyectosComponent,
     ContactoComponent,
+    IniciarSesionComponent,
+    PortfolioComponent,
+    NotFoundComponentComponent,
+    SoftYSkComponent,
+
     
   
   ],
@@ -31,10 +41,14 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    NgCircleProgressModule.forRoot({}),
     
   ],
-  providers: [],
+  providers: [
+    interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

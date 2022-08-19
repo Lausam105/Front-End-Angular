@@ -3,6 +3,11 @@
     "edad": 39,
     "titulo": "Desarrollador Web Full Stack Jr.",
     "Imagen": "../../../assets/Foto.PNG",
+    "desc1": "Soy un Desarrollador dinámico, creo, diseño y actualizo Sitios Web," ,
+    "desc2": "cuento con diversas habilidades en Desarrollo Web, tanto del lado",
+    "desc3": "del servidor (Back-end), como tambien en el lado del cliente (Front-end),",
+    "desc4": "Me considero una persona bien organizada, solucionador de problemas,",
+    "desc5": "y con gran atención a los detalles.",
     
     "barra1": "Diseñador Web",
     "barra2": "Acerca de...",
@@ -10,8 +15,23 @@
     "barra4": "Experiencia",
     "barra5": "Mis habilidades",
     "barra6": "Proyectos",
-    "barra7": "Contacto"
+    "barra7": "Contacto",
+    "logo": "../../../assets/Logo_CG.png",
+
+
+    
+    "estudios1": "Escuela 4-089",
+    "estudios2": "'José Manuel Estrada'",
+    "estudios3": "Escuela Secundaria Completa.",
+    "estudios4": "Título: Bachiller con modalidad en economía y gestión de las organizaciones",
+    "inst": "Instituto Geminis",
+    "inst2": "Título: Operador y Técnico de PC.",
+    "arg": "../../../assets/Logo AP.png",
+    "tituloArg": "Título: Desarrollador Full Stack Jr."
 }
+
+
+
     
 
 

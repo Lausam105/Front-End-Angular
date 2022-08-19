@@ -4,21 +4,21 @@
 
      <div>
     <h1  class="educacion" id="link2">Educación</h1>
-    <h3 class="escuela">Escuela 4-089</h3>
-    <h3 class="escuela2">"José Manuel Estrada"</h3>
+    <h3 class="escuela">{{miPorfolio.estudios1}} <button id="bot1" type="button" class="btn btn-outline-primary">Edit</button></h3>
+    <h3 class="escuela2">{{miPorfolio.estudios2}}</h3>
     <br />
-    <button id="bot1" type="button" class="btn btn-outline-primary">Edit</button>
-    <p class="titulo_secundario">Escuela Secundaria Completa. <br /> 
-       Título: Bachiller con modalidad en economía y gestión de las organizaciones.</p>
+    
+    <p class="titulo_secundario">{{miPorfolio.estudios3}} <button id="bot1" type="button" class="btn btn-outline-primary">Edit</button> <br /> 
+       {{miPorfolio.estudios4}}.</p>
     
     <br />
-    <h3 class="instituto">"Instituto Géminis"</h3>
+    <h3 class="instituto">{{miPorfolio.inst}}</h3>
     <br />
-    <span><p class="titulo_instituto">Título: Operador y Técnico de PC.</p></span>
+    <span><p class="titulo_instituto">{{miPorfolio.inst2}}</p></span>
     <br />
-    <h3 class="argentina"><img src="../../../assets/Logo AP.png" height="120px" /></h3>
+    <h3 class="argentina"><img [src]="miPorfolio.arg" height="120px" /></h3>
     <br />
-    <span><p class="titulo_argentina">Título: Desarrollador Full Stack Jr.</p></span>
+    <span><p class="titulo_argentina">{{miPorfolio.tituloArg}}</p></span>
     <br />
 </div>
 </div>

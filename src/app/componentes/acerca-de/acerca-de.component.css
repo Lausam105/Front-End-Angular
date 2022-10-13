@@ -4,8 +4,9 @@
     background-size: 80%;
     position: relative;
     display: inline;
-    padding: 10px;
+    justify-content: center;
     float: right;
+    
  
     animation: fondo 10s linear infinite;
 }
@@ -118,7 +119,7 @@
 
 #bot1 {
    position: relative;
-   left: 800px;
+   left: 700px;
 }
 
 #bot2 {

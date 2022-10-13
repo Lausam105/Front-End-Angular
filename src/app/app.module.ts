@@ -18,6 +18,9 @@ import { NotFoundComponentComponent } from './componentes/not-found-component/no
 import { SoftYSkComponent } from './componentes/soft-ysk/soft-ysk.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { interceptorProvider } from './servicios/interceptor.service';
+import { NewExperienciaComponent } from './componentes/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './componentes/experiencia/edit-experiencia.component';
+
 
 @NgModule({
   declarations: [
@@ -33,6 +36,9 @@ import { interceptorProvider } from './servicios/interceptor.service';
     PortfolioComponent,
     NotFoundComponentComponent,
     SoftYSkComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent,
+    
 
     
   

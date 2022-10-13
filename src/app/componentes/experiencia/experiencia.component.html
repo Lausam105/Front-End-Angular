@@ -1,26 +1,27 @@
 <div id="contenedor4" class="container-fluid">
     <div class="row">
-      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-12 col-xl-12 col-xxl-12">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
         <div>
             <hr id="linea2"><br />
             <h1  class="experiencia" id="link3">Experiencia</h1>
         </div>
         <br/>
         <br/>
-        <table>
-            
-            <tr>
-                <th>* Revolution Games</th>
-                <th class="filas">(Mantenimiento de Computadoras)</th>
-            </tr>
-            <tr>
-                <th>* Aprendamos a Vivir</th>
-                <th class="filas">(Administrativo)</th>
-            </tr>
-            <tr>
-                <th>* D&C Confección y Diseño</th>
-                <th class="filas">(Diseño gráfico)</th>
-            </tr>
+        <div>
+            <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+                Nueva Experiencia
+            </button>
+        </div>
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Experiencia of expe">
+                    <td><h3>{{Experiencia.nombreE}}</h3></td>
+                    <td>{{Experiencia.descripcionE}}</td>
+                    <td *ngIf="isLogged" ><button class="btn btn-light" routerLink="/editexp/{{Experiencia.id}}"><i class="bi bi-pencil-fill" style="color:red"></i> EDITAR</button></td>
+                    <td *ngIf="isLogged"><i class="bi bi-pencil-fill" style="color:red"></i> BORRAR</td>
+                </tr>
+
+            </tbody>
         </table>
 
         

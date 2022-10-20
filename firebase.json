@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/portofio-angular",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

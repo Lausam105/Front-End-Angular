@@ -1,8 +1,8 @@
 <div id="contenedor4" class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+      <div class="col">
         <div>
-            <hr id="linea2"><br />
+        
             <h1  class="experiencia" id="link3">Experiencia</h1>
         </div>
         <br/>
@@ -17,14 +17,18 @@
                 <tr *ngFor="let Experiencia of expe">
                     <td><h3>{{Experiencia.nombreE}}</h3></td>
                     <td>{{Experiencia.descripcionE}}</td>
-                    <td *ngIf="isLogged" ><button class="btn btn-light" routerLink="/editexp/{{Experiencia.id}}"><i class="bi bi-pencil-fill" style="color:red"></i> EDITAR</button></td>
-                    <td *ngIf="isLogged"><i class="bi bi-pencil-fill" style="color:red"></i> BORRAR</td>
+                    <td *ngIf="isLogged" ><button class="btn btn-light" routerLink="/editexp/{{Experiencia.id}}">
+                        <i class="bi bi-pencil-fill" style="color:red"></i> EDITAR</button></td>
+                        <td *ngIf="isLogged" ><button class="btn btn-danger" (click)="delete(Experiencia.id)">
+                            <i class="bi bi-trash-fill" style="color:rgb(7, 7, 7)"></i> BORRAR</button></td>
                 </tr>
 
             </tbody>
         </table>
-
-        
+        <br/>
+        <br/>
+        <br/>
+        <hr id="linea">
     </div>
 </div>
 </div>

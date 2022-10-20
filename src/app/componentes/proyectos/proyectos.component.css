@@ -1,0 +1,54 @@
+#contenedor5 {
+    margin:auto;
+    display:block;
+    background-color: black;
+    position: relative;
+    padding: 30px;
+
+}
+@media(max-width: 600px){
+    #contenedor5{
+        width:550px;
+    }
+}
+
+#linea2 {
+    color: #ccc;
+    position: relative;
+
+
+}
+
+.proyectos {
+    text-align:justify;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-left:30px;
+    position: relative;
+    color:aqua;
+}
+
+#carouselExampleIndicators{
+    width: 50%;
+    float: left;
+    border-radius: 20px;
+}
+
+.pagina1{
+    margin-right: 50px; 
+    float: right;
+    color: #ccc;
+    font-size: 30px;
+    text-align: center;
+}
+
+.proy2{
+
+    float:left;
+}
+
+#carouselExampleFade{
+    width: 50%;
+    float: left;
+    border-radius: 20px;
+}

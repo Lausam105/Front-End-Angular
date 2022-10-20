@@ -1,42 +1,31 @@
-<div id="contenedor2" class="container-fluid">
+<div  class="container-fluid">
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
-  <div class="encabezado" id="home"><a target="_blank" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"><img src="../../../assets/Logo AP.png" height="80px" /></a>
-    <button id="bot1" type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
-    <button id="bot1" type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
-    <br />
-    
-<img class="banner" src="../../../assets/programando.jpg"/>
-<img id="link1" class="img-fluid img-thumbnail" class="foto" [src]="miPorfolio.Imagen"  width="250px"/>
-
-<h1 id="Saludo">¡HOLA SOY {{miPorfolio.nombre}}!</h1>
-<h2 id="desarrollador">{{miPorfolio.titulo}}</h2>
-<p id="descripcion">{{miPorfolio.desc1}} <br>
-  {{miPorfolio.desc2}} <br>
-  {{miPorfolio.desc3}}<br>
-  {{miPorfolio.desc4}}<br>
-  {{miPorfolio.desc5}}</p>
-<br/>
-
-
-
-
-
-
-
-
-
-
-
-
-<hr id="linea">
-
-
-
-
+  <div class="col">
+  <br/>
+  <br/>
+  <div>
+    <img id="banner" src="../../../assets/programando.jpg" class="img-fluid"/>
+    <img  id="foto" [src]="miPorfolio.Imagen" class="img-fluid"  width="250px"/>
+  </div>
+  <div id="link1">
+    <h1 id="Saludo">¡HOLA SOY {{miPorfolio.nombre}}!</h1>
+    <h2 id="desarrollador">{{miPorfolio.titulo}}</h2>
+    <p id="descripcion">{{miPorfolio.desc1}} <br>
+     {{miPorfolio.desc2}} <br>
+     {{miPorfolio.desc3}}<br>
+     {{miPorfolio.desc4}}<br>
+     {{miPorfolio.desc5}}</p>
+    </div>
+    <hr id="linea">
 
 </div>
 </div>
 </div>
-</div>
+
+
+
+
+
+
+
+

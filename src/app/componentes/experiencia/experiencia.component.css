@@ -1,11 +1,17 @@
 #contenedor4 {
-    width: 80%;
-    background-color: rgb(10, 9, 10);
+    margin:auto;
+    display:block;
+    background-color: black;
     position: relative;
-    display: inline;
-    padding: 10px;
-    float: right;
+    padding: 30px;
+
 }
+@media(max-width: 600px){
+    #contenedor4{
+        width:550px;
+    }
+}
+
 
 #linea2 {
     color: #ccc;
@@ -29,6 +35,9 @@ table {
     font-size: 20px;
 }
 
+#linea {
+    color: #ccc;
+}
 
 
 

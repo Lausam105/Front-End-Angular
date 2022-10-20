@@ -1,0 +1,52 @@
+.flex-container {
+    width: 100%;
+    display:flex;
+    background-color: rgb(73, 42, 200);
+    position: relative;
+    padding: 30px;
+
+}
+@media (max-width: 600px){
+    .flex-container{
+        width:550px;
+    }
+}
+
+.contacto {
+    text-align:justify;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-left:30px;
+    position: relative;
+    color:aqua;
+}
+
+.titulo{
+    margin: auto;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: bisque;
+}
+
+#telefono{
+    font-size: 20px;
+    color:rgb(248, 242, 242);
+    text-align: center;
+}
+
+#correo{
+    font-size: 20px;
+    color:rgb(250, 247, 247);
+    text-align: center;
+}
+
+.final{
+    border:solid 5px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+   
+
+}
+

@@ -1,26 +1,40 @@
 <div id="contenedor3" class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+  <div class="row">
+    <div class="col">
 
-     <div>
-    <h1  class="educacion" id="link2">Educación</h1>
-    <h3 class="escuela">{{miPorfolio.estudios1}} <button id="bot1" type="button" class="btn btn-outline-primary">Edit</button></h3>
-    <h3 class="escuela2">{{miPorfolio.estudios2}}</h3>
-    <br />
-    
-    <p class="titulo_secundario">{{miPorfolio.estudios3}} <button id="bot1" type="button" class="btn btn-outline-primary">Edit</button> <br /> 
-       {{miPorfolio.estudios4}}.</p>
-    
-    <br />
-    <h3 class="instituto">{{miPorfolio.inst}}</h3>
-    <br />
-    <span><p class="titulo_instituto">{{miPorfolio.inst2}}</p></span>
-    <br />
-    <h3 class="argentina"><img [src]="miPorfolio.arg" height="120px" /></h3>
-    <br />
-    <span><p class="titulo_argentina">{{miPorfolio.tituloArg}}</p></span>
-    <br />
-</div>
-</div>
-</div>
+   <div>
+  <h1  class="educacion" id="link2">Educación</h1>
+  <br>
+  <br>
+      <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">
+          Agregar Educacion
+      </button>
+  </div>
+
+  <div class="col lg 1"></div>
+  <div class="col-lg-11">
+      <table class="table">
+          <tbody>
+              <tr *ngFor="let Educacion of educacion">
+                  <td>
+                      <h2>{{Educacion.nombreE}}</h2>
+                  </td>
+                  <td>{{Educacion.descripcionE}}</td>
+                  <td *ngIf="isLogged">
+                      <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
+                          <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                  </td>
+                  <td *ngIf="isLogged">
+                      <button class="btn btn-danger" (click)="delete(Educacion.id)">
+                          <i class="bi bi-trash-fill"></i> BORRAR</button>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+      <br/>
+      <br/>
+      <br/>
+      <hr id="linea">
+  </div>
+
 </div>

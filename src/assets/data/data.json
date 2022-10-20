@@ -27,7 +27,17 @@
     "inst": "Instituto Geminis",
     "inst2": "Título: Operador y Técnico de PC.",
     "arg": "../../../assets/Logo AP.png",
-    "tituloArg": "Título: Desarrollador Full Stack Jr."
+    "tituloArg": "Título: Desarrollador Full Stack Jr.",
+
+
+    "proyecto1": "../../../assets/pagina mia.jpg",
+    "proyecto2": "../../../assets/pagina mia 2.jpg",
+    "proyecto3": "../../../assets/pagina mia 3.jpg",
+    "proyecto4": "../../../assets/Lista de tareas.jpg",
+    "proyecto5": "../../../assets/juego.jpg",
+    "proyecto6": "../../../assets/imagen-portfolio.jpg",
+    "proyecto7": "../../../assets/imagen-portfolio2.jpg",
+    "proyecto8": "../../../assets/imagen-portfolio3.jpg"
 }
 
 
